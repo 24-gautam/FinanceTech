@@ -130,9 +130,9 @@ const Footer = () => {
                         <div class="col-md-4 col-sm-12">
                             <div class="copyright-text">
                                 <p className='footer-p social'>
-                                    <a href='facebook.com'><img src={FaceBook} alt="" /></a>
-                                    <a href='instagram.com'><img src="/svg/instagram.svg" alt="" /></a>
-                                    <a href='twitter.com'><img src="/svg/twitter.svg" alt="" /></a>
+                                    <a href='http://facebook.com' target='_blank'><img src={FaceBook} alt="" /></a>
+                                    <a href='http://instagram.com' target='_blank'><img src="/svg/instagram.svg" alt="" /></a>
+                                    <a href='http://twitter.com' target='_blank'><img src="/svg/twitter.svg" alt="" /></a>
                                 </p>
                             </div>
                         </div>

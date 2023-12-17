@@ -15,7 +15,6 @@ html {
 }
 
 .navbar {
-  /* background-color: #cfc1ef; */
   background-color: white;
 }
 
@@ -80,6 +79,7 @@ html {
 
 .finance {
   min-height: 80vh;
+  padding-top: 5em;
   background: url("/images/citybg.jpg") center center no-repeat;
   background-size: cover;
 }
@@ -181,9 +181,9 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 145vh;
   justify-content: space-between;
   font-family: "Dosis", sans-serif;
+  padding-top: .5em;
 }
 
 .span1 {
@@ -192,7 +192,8 @@ html {
 
 .logobottom {
   margin-top: 10px;
-  width: 170px;
+  width: 200px;
+  padding-bottom: 10px;
 }
 
 .abovePhone {
@@ -200,14 +201,20 @@ html {
   padding-top: 10px;
 }
 
+.phone {
+  padding-top: 1em;
+}
+
 .get-started > div {
   text-align: center;
   font-weight: 600;
+  padding-bottom: .2em;
 }
 
 .get-started > div > h1 {
   text-align: center;
   font-weight: bolder;
+  padding-bottom: .2em;
 }
 
 .watchvideo {
@@ -864,9 +871,6 @@ li {
     margin-top: 1em;
   }
 
-  .get-started {
-    min-height: 160vh;
-  }
 
   .application-box {
     margin: 0;
@@ -992,6 +996,10 @@ li {
     padding: 2rem;
   }
 
+  .simple {
+    width: 80%;
+  }
+
   .card-btn {
     width: 100%;
     margin: 0;
@@ -1012,9 +1020,6 @@ li {
     margin: 0;
   }
 
-  .get-started {
-    height: 170vh;
-  }
 
   .phone {
     width: 90%;
@@ -1026,6 +1031,11 @@ li {
 
   .grid2-box>p {
     text-align: center;
+  }
+
+  .points {
+    text-align: start;
+    width: 110%;
   }
 }
 
